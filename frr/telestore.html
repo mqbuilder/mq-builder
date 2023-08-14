@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>MYPROJECT</title>
+    <link rel="stylesheet" href="style/telestore.css">
+
+
+    <!---script>
+
+        alert('Welcome to our site!!!!!')
+var a= prompt('What`s youre name?'), b= prompt('How youre age?');
+
+
+alert('You`re name really? - '+a);
+
+
+alert('OKEY(^__^) - '+a);
+
+
+
+alert('Youre age - '+ b);
+
+
+
+    </script-->
+
+
+
+
+
+</head>
+<body  onload="meny()">
+    <div class="one">
+      <div class="two">SMARTPORTAL
+       
+        <input type="search" placeholder=" &#128269; Search" id="search">
+        <button class="poisk"><img class="pois" src="images/sea.jpg" alt="poisk"></button>  
+      </div>
+
+        <nav class="three">
+           
+          
+            <ul>
+          
+              <li><a href="Registration.html"><i class="fa fa-home fa-fw">Registration</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="galery.html">Galery</a></li>
+                <li><a href="xo.html">Game</a></li>
+              </ul>
+            
+        </nav>
+        
+<div class="oclock">
+ 
+
+
+  <script>
+
+    function meny(){
+    window.timerId = window.setInterval(timer, 500);
+     }
+    
+    function timer(){
+    var clock = document.getElementById('soat');
+    var date = new Date();
+    clock.innerHTML = addZero(date.getHours())+':'+addZero(date.getMinutes())+':'+addZero(date.getSeconds());
+    }
+    function addZero(num){
+        if(num <=9) return '0'+num
+        else return num;
+    }
+        </script>
+
+<p id="soat">00:00:00</p>
+
+
+
+
+</div>
+       
+
+
+ </div>
+
+
+    <div>
+        <br>
+        <table  id="four">
+            <tr id="bir">
+<th>Phone brands</th>
+
+
+
+    </tr>
+     <tr>
+      <td>
+      
+      
+      <a href="apple.html"> <img src="images/applee.png" id="img"></a></td>
+        
+    </tr>
+        <tr>
+        <td>   <a href="samsung.html"> <img src="images/samsu.png" id="img"></a> </td>
+    </tr>
+        <tr>
+        <td>   <a href="redmi.html"> <img src="images/едми.png" id="img"></a> </td>
+    
+    </tr>
+        <tr>
+        <td>   <a href="huawey.html"> <img src="images/ХУАВУЙ.png" id="img"></a> </td>
+    </tr>
+        <tr>
+        <td>    <a href="poco.html"> <img src="images/поко.jpg" id="img"></a> </td>
+    </tr>
+    <tr>
+        <td>   <a href="inoi.html"> <img src="images/инои.jpg" id="img">  </a>    </td>
+    </tr>
+    <tr>
+        <td> <a href="nokea.html"> <img src="images/нокея.png" id="img"> </a>  </td>
+    </tr>
+   </table>
+    </div>  
+ 
+<br>
+<br>
+
+<style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+   
+    .slideshow-container {
+      max-width: 600px;
+      position: relative;
+      margin: auto;
+      border: 2px solid black;
+      border-radius: 10px;
+
+    }
+    
+   
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+    
+  
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+   
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+   
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+   
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+ 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="ayfon/iphone 13pro max 128gb 17043tjs.jpg" style="width:98%">
+  <div class="text"><h2 style="color: chartreuse;"><center>iPhone 13 Pro Max 128gb 17043 tjs</center></h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="ayfon/poco m3 pro 5-6-128gb 2686ы.jpg" style="width:90%">
+  <div class="text"><h2 style="color: chartreuse;">Poco M3 Pro 5/6/128gb 2686 tjs</h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="ayfon/redmi 11i 8-256gb 7205tjs.jpg" style="width:90%">
+  <div class="text"><h2 style="color: chartreuse;">Redmi 11i 8/256gb 7205 tjs</h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="ayfon/samsung gA51 2000s.jpg" style="width:90%">
+  <div class="text"><h2 style="color: chartreuse;">Samsung Galaxy A51 2000 tjs</h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="ayfon/redmi 10 prime 268tjs 4-64gb 6-128gb.jpg" style="width:90%">
+  <div class="text"><h2 style="color: chartreuse;">Redmi 10 Prime 4/64 6/128</h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="ayfon/самсунг с10 3300с.jpg" style="width:90%">
+  <div class="text"><h2 style="color: chartreuse;">Samsung Galaxy C10 3300 tjs</h2></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+   
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+    <div id="x1">
+
+<center><h1>What do you do in this site?</h1></center>
+<p><i>  <em>You can in this site - You can buy phone`s and play a Game X vs O!</em></i></p>
+
+      
+
+
+
+    </div>
+
+
+
+
+
+
+    <br>
+    <div id="ten">
+        
+    <h1>Our chat`s</h1>
+    <br>
+
+    <center>
+            <ul>
+            <li class="razrabot">Producted by
+                 Qayumov Mahmudljon</li>
+                 <br>
+                 <li>You have any questions please send the questions in my E-mail!!</li>
+                 <br>
+              <input type="email" value="E-mail" class="email"> <input type="reset" value="Сбросить">
+              <input type="submit"  mailto="email:instacoroll@gmail.com">
+            </ul>
+          </center>
+            <ul>
+                <li style="padding: 5px;"> <img src="ayfon/telefon.png" class="img">  Phone number - <a href="tel:000339837">+992-(00)-033-98-37</a></li>
+                <li style="padding: 5px;"> <img src="ayfon/-instagram.png" class="img">  Instagramm - <a href="https://instagram.com/_store_phone_khudjand_">_store_phone_khudjand_</a></li>
+                <li style="padding: 5px;"> <img src="ayfon/face.jpg" class="img">  Facebook - <a href="https://facebook.com/tajik.mehmet">tajik.mehmet</a></li>
+                <li style="padding: 5px;"> <img src="ayfon/telegramm.jpg" class="img">  Telegram - <a href="https://telegram.com/@bestboytj22">MAHMUDJON Development</a></li>          
+                 
+                  <h2></h2>
+        
+    </div>
+    
+    </body>
+    </html>
